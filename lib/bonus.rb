@@ -21,10 +21,10 @@ def bonus
   }
 
   #code your solution here:
-  def bonus(hash)
-    hash[:montague][:hero][:status] = "dead"
-    hash[:capulet][:heroine][:status] = "dead"
-    hash
+  def bonus(family)
+    family[:montague][:hero][:status] = "dead"
+    family[:capulet][:heroine][:status] = "dead"
+    family
   end
 
 
