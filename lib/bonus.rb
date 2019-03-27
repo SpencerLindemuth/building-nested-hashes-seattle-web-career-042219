@@ -21,7 +21,7 @@ def bonus
   }
 
   #code your solution here:
-  def bonus(family)
+  def bonus_change(family)
     family[:montague][:hero][:status] = "dead"
     family[:capulet][:heroine][:status] = "dead"
     family
@@ -29,6 +29,6 @@ def bonus
 
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
-  bonus(epic_tragedy)
+  bonus_change(epic_tragedy)
   epic_tragedy
 end
